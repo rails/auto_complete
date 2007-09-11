@@ -1,2 +1,2 @@
-ActionController::Base.send :include, AutoComplete 
-ActionView::Helpers.send :include, AutoCompleteMacrosHelper
+ActionController::Base.send :include, AutoComplete
+ActionController::Base.helper AutoCompleteMacrosHelper
